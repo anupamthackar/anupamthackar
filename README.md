@@ -1,4 +1,3 @@
-<hr>
 <h1 align="center">Hi 👋, I'm Anupam Thackar</h1>
 <h3 align="center">A passionate frontend developer and Will be MERN developer.</h3>
 <hr>
