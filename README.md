@@ -1,6 +1,7 @@
+<hr>
 <h1 align="center">Hi 👋, I'm Anupam Thackar</h1>
 <h3 align="center">A passionate frontend developer and Will be MERN developer.</h3>
-
+<hr>
 <h3 align="left" margin-left='30px'>Languages and Tools:</h3>
 <p align="center" gap="20px"> 
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
@@ -13,8 +14,7 @@
   <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
   <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> 
 
-<p>__________________________________________________________________________________________________________________________</p>
-
+<hr>
 - 🌱 I’m currently learning **MERN Development**
 
 - 📝 I regularly write articles on  **<a href="https://javascript-blog-anupamthackar.blogspot.com/">Blogger</a>**
@@ -26,17 +26,16 @@
 - 💬 Ask me about **Frontend Web development, React.js, Redux, JavaScript and Python**
     
 - ⚡ Fun fact **I think i am All Rounder**
+<hr>
 
 
 
 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/anupamthackar67/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anupamthackar67/" height="30" width="40" /></a>
+<h3	align="left">Connect with me:</h3>
+<p align="center">
+<a href="https://www.linkedin.com/in/anupamthackar67/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anupamthackar67/" height="30" width="40" /></a>
 </p>
 
-
-
+<hr>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=anupamthackar&show_icons=true&locale=en&layout=compact" alt="anupamthackar" /></p>
 
