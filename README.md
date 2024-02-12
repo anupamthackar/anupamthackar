@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Anupam Thackar</h1>
-<h3 align="center">A passionate frontend developer and Will be MERN.</h3>
+<h3 align="center">A passionate frontend developer and Will be MERN developer.</h3>
 
 <h3 align="left" margin-left='30px'>Languages and Tools:</h3>
 <p align="center" gap="20px"> 
