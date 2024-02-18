@@ -18,7 +18,7 @@
 
 - 📝 I regularly write articles on  **<a href="https://javascript-blog-anupamthackar.blogspot.com/">Blogger</a>**
 
-- 📄 Know about my experiences **<a href="https://drive.google.com/file/d/13nBg7MrjuRkTuB2ZbYZd4cfqCeT04zmH/view?usp=drive_link](https://drive.google.com/file/d/13nBg7MrjuRkTuB2ZbYZd4cfqCeT04zmH/view?usp=drive_link">Resume</a>**
+- 📄 Know about my experiences **<a href="https://drive.google.com/file/d/1Ab4ipi4inUZLHKXbEYDiZbEWGG4xDib-/view?usp=drive_link">Resume</a>**
   
 - 📫 How to reach me **<a href="mailto:anupamthackar@gmail.com">Email</a>**
   
