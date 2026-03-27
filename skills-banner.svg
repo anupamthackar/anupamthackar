@@ -1,0 +1,265 @@
+<svg width="800" height="420" viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A14"/>
+      <stop offset="100%" stop-color="#080810"/>
+    </linearGradient>
+    <linearGradient id="cardGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00F5FF" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="cardGlass2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7B7BFF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7B7BFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00F5FF" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#7B7BFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7B7BFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="divider" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00F5FF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00F5FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip1"><rect x="0" y="0" width="140" height="64" rx="8"/></clipPath>
+    <clipPath id="cardClip2"><rect x="0" y="0" width="140" height="64" rx="8"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#bg)" rx="12"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="800" height="1" fill="url(#topline)" rx="0"/>
+
+  <!-- Header -->
+  <text x="400" y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#00F5FF" opacity="0.6" letter-spacing="4">// TECH STACK :: SHIMMER GLASS</text>
+
+  <!-- ─── ROW 1 LABEL ─── -->
+  <rect x="260" y="50" width="280" height="1" fill="url(#divider)"/>
+  <text x="400" y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7B7BFF" letter-spacing="3">LANGUAGES &amp; UI</text>
+
+  <!-- CARD MACRO: x y label tag grad -->
+  <!-- Row 1: Swift, SwiftUI, UIKit, watchOS, Obj-C -->
+
+  <!-- Swift -->
+  <g transform="translate(28, 60)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#00F5FF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#FA7343" opacity="0.7"/>
+    <rect x="0" y="0" width="134" height="1" rx="0" fill="#00F5FF" fill-opacity="0.25"/>
+    <rect x="0" y="59" width="134" height="1" rx="0" fill="#00F5FF" fill-opacity="0.08"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="13" fill="#FA7343" filter="url(#glow)">{ }</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF" letter-spacing="0.5">Swift</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" opacity="0.55" letter-spacing="2">PRIMARY</text>
+    <!-- corner brackets -->
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- SwiftUI -->
+  <g transform="translate(172, 60)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#00F5FF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#00F5FF" opacity="0.7"/>
+    <rect x="0" y="0" width="134" height="1" fill="#00F5FF" fill-opacity="0.25"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="13" fill="#00F5FF" filter="url(#glow)">[ ]</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">SwiftUI</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" opacity="0.55" letter-spacing="2">ACTIVE</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- UIKit -->
+  <g transform="translate(316, 60)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass2)" stroke="#7B7BFF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#7B7BFF" opacity="0.7"/>
+    <rect x="0" y="0" width="134" height="1" fill="#7B7BFF" fill-opacity="0.25"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="13" fill="#7B7BFF" filter="url(#glow)">&lt; &gt;</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">UIKit</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#7B7BFF" opacity="0.55" letter-spacing="2">LEGACY+</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#7B7BFF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#7B7BFF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- watchOS -->
+  <g transform="translate(460, 60)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#00F5FF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#AAAAAA" opacity="0.7"/>
+    <rect x="0" y="0" width="134" height="1" fill="#00F5FF" fill-opacity="0.2"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="13" fill="#AAAAAA">( )</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">watchOS</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#AAAAAA" opacity="0.6" letter-spacing="2">SHIPPED</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.5"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- Obj-C -->
+  <g transform="translate(604, 60)">
+    <rect width="164" height="60" rx="8" fill="url(#cardGlass)" stroke="#438EFF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="164" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#438EFF" opacity="0.7"/>
+    <rect x="0" y="0" width="164" height="1" fill="#438EFF" fill-opacity="0.2"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="13" fill="#438EFF">@( )</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Obj-C</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#438EFF" opacity="0.55" letter-spacing="2">LEGACY</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#438EFF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M156 52 L162 52 L162 58" fill="none" stroke="#438EFF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- ─── ROW 2 LABEL ─── -->
+  <rect x="260" y="142" width="280" height="1" fill="url(#divider)"/>
+  <text x="400" y="138" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7B7BFF" letter-spacing="3">ARCHITECTURE &amp; NETWORKING</text>
+
+  <!-- MVVM -->
+  <g transform="translate(28, 150)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#00F5FF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#00F5FF" opacity="0.6"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#00F5FF">M→V→VM</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">MVVM</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" opacity="0.55" letter-spacing="2">PATTERN</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- async/await -->
+  <g transform="translate(172, 150)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#FA7343" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#FA7343" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#FA7343">async { }</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">async/await</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#FA7343" opacity="0.6" letter-spacing="2">CONCUR.</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#FA7343" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#FA7343" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- SSE Streaming -->
+  <g transform="translate(316, 150)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#30D158" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#30D158" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#30D158">—— ~~</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">SSE Stream</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#30D158" opacity="0.6" letter-spacing="2">REALTIME</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#30D158" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#30D158" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Stripe -->
+  <g transform="translate(460, 150)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass2)" stroke="#635BFF" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#635BFF" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#635BFF">$ pay()</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Stripe</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#635BFF" opacity="0.6" letter-spacing="2">PAYMENT</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#635BFF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#635BFF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Apple Pay -->
+  <g transform="translate(604, 150)">
+    <rect width="164" height="60" rx="8" fill="url(#cardGlass)" stroke="#FFFFFF" stroke-width="0.6" stroke-opacity="0.2"/>
+    <rect width="164" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#FFFFFF" opacity="0.5"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#FFFFFF" opacity="0.8"> pay</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Apple Pay</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#FFFFFF" opacity="0.4" letter-spacing="2">PAYMENT</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+    <path d="M156 52 L162 52 L162 58" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+  </g>
+
+  <!-- ─── ROW 3 LABEL ─── -->
+  <rect x="260" y="232" width="280" height="1" fill="url(#divider)"/>
+  <text x="400" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#7B7BFF" letter-spacing="3">DATA · CORE · TOOLS</text>
+
+  <!-- Core Data -->
+  <g transform="translate(28, 240)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#00F5FF" stroke-width="0.6" stroke-opacity="0.35"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#00F5FF" opacity="0.6"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#00F5FF">db.save()</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Core Data</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#00F5FF" opacity="0.55" letter-spacing="2">PERSIST.</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- CoreLocation -->
+  <g transform="translate(172, 240)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#30D158" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#30D158" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#30D158">pin(lat,lon)</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#E0FFFF">CoreLocation</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#30D158" opacity="0.6" letter-spacing="2">GEO</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#30D158" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#30D158" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- AVFoundation -->
+  <g transform="translate(316, 240)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#FF4C7B" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#FF4C7B" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#FF4C7B">▶ play()</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#E0FFFF">AVFoundation</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#FF4C7B" opacity="0.6" letter-spacing="2">MEDIA</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#FF4C7B" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#FF4C7B" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Git -->
+  <g transform="translate(460, 240)">
+    <rect width="134" height="60" rx="8" fill="url(#cardGlass)" stroke="#F05032" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="134" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#F05032" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#F05032">git push</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Git / GitHub</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#F05032" opacity="0.6" letter-spacing="2">VCS</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#F05032" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M126 52 L132 52 L132 58" fill="none" stroke="#F05032" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Xcode -->
+  <g transform="translate(604, 240)">
+    <rect width="164" height="60" rx="8" fill="url(#cardGlass)" stroke="#147EFB" stroke-width="0.6" stroke-opacity="0.4"/>
+    <rect width="164" height="60" rx="8" fill="url(#shimmer)"/>
+    <rect x="0" y="0" width="4" height="60" rx="2" fill="#147EFB" opacity="0.7"/>
+    <text x="18" y="24" font-family="'Courier New', monospace" font-size="11" fill="#147EFB">build run</text>
+    <text x="18" y="41" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#E0FFFF">Xcode</text>
+    <text x="18" y="54" font-family="'Courier New', monospace" font-size="8" fill="#147EFB" opacity="0.6" letter-spacing="2">IDE</text>
+    <path d="M2 8 L2 2 L8 2" fill="none" stroke="#147EFB" stroke-width="0.8" stroke-opacity="0.6"/>
+    <path d="M156 52 L162 52 L162 58" fill="none" stroke="#147EFB" stroke-width="0.8" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- Footer divider -->
+  <rect x="0" y="360" width="800" height="0.5" fill="url(#divider)"/>
+
+  <!-- Footer text -->
+  <text x="400" y="383" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#00F5FF" opacity="0.35" letter-spacing="3">◈ ANUPAM THACKAR · iOS DEVELOPER · PUNE, INDIA ◈</text>
+
+  <!-- Subtle corner dots -->
+  <circle cx="20" cy="20" r="1.5" fill="#00F5FF" opacity="0.3"/>
+  <circle cx="780" cy="20" r="1.5" fill="#00F5FF" opacity="0.3"/>
+  <circle cx="20" cy="400" r="1.5" fill="#00F5FF" opacity="0.3"/>
+  <circle cx="780" cy="400" r="1.5" fill="#00F5FF" opacity="0.3"/>
+  <path d="M14 20 L20 20 M20 14 L20 20" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.4"/>
+  <path d="M786 20 L780 20 M780 14 L780 20" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.4"/>
+  <path d="M14 400 L20 400 M20 406 L20 400" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.4"/>
+  <path d="M786 400 L780 400 M780 406 L780 400" fill="none" stroke="#00F5FF" stroke-width="0.8" stroke-opacity="0.4"/>
+</svg>
