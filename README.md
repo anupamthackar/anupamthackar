@@ -42,7 +42,8 @@ iOS Developer with **1.8+ years** deploying production iOS and watchOS applicati
 <div align="center">
 
 <!-- Shimmer glass skill banner — upload skills-banner.svg to your repo and update path below -->
-<img src="https://raw.githubusercontent.com/anupamthackar/anupamthackar/main/skills-banner.svg" width="100%" alt="Tech Stack"/>
+<!-- <img src="https://raw.githubusercontent.com/anupamthackar/anupamthackar/main/skills-banner.svg" width="100%" alt="Tech Stack"/>-->
+<img src="skills-banner.svg" width="100%" alt="Tech Stack"/>
 
 </div>
 
