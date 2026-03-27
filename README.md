@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1800&color=00F5FF&center=true&vCenter=true&width=520&lines=%3E+INITIALIZING+iOS+DEVELOPER+PROFILE...;%3E+LOADING+SWIFT+%7C+SWIFTUI+%7C+WATCHOS...;%3E+AI+INTEGRATION+%3A%3A+SSE+STREAMING+%3A%3A+MVVM;%3E+1.8%2B+YRS+PRODUCTION+EXPERIENCE+%5BACTIVE%5D;%3E+SYSTEM+READY_" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1800&color=00F5FF&center=true&vCenter=true&width=520&lines=%3E+INITIALIZING+iOS+DEVELOPER+PROFILE...;%3E+LOADING+SWIFT+%7C+SWIFTUI+%7C+WATCHOS...;%3E+AI+INTEGRATION+%3A%3A+SSE+STREAMING+%3A%3A+MVVM;%3E+2%2B+YRS+PRODUCTION+EXPERIENCE+%5BACTIVE%5D;%3E+SYSTEM+READY_" alt="Typing SVG"/>
 
 <br/>
 
@@ -22,7 +22,7 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║  UNIT       :: Anupam Thackar                                ║
 ║  ROLE       :: iOS Developer @ NeoSoft Technologies          ║
-║  LOCATION   :: Pune, Maharashtra, India                      ║
+║  LOCATION   :: Mumbai, Maharashtra, India                      ║
 ║  STATUS     :: Active — Open to new missions                 ║
 ║  CLEARANCE  :: Mobility · Travel · Insurance · Banking       ║
 ╚══════════════════════════════════════════════════════════════╝
