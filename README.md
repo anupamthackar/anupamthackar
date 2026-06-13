@@ -1,85 +1,172 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:0D0D1A,100:00F5FF&height=180&section=header&text=ANUPAM%20THACKAR&fontSize=42&fontColor=00F5FF&fontAlignY=45&desc=iOS%20DEVELOPER%20%2F%2F%20SWIFT%20%7C%20SWIFTUI%20%7C%20WATCHOS&descSize=13&descColor=7B7BFF&descAlignY=68&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FA7343,50:C04CFD,100:4D96FF&height=200&section=header&text=ANUPAM%20THACKAR&fontSize=46&fontColor=ffffff&fontAlignY=40&desc=iOS%20Developer%20%E2%80%A2%20Swift%20%7C%20SwiftUI%20%7C%20AI%20Integration&descSize=16&descColor=f5f0ff&descAlignY=58&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1800&color=00F5FF&center=true&vCenter=true&width=520&lines=%3E+INITIALIZING+iOS+DEVELOPER+PROFILE...;%3E+LOADING+SWIFT+%7C+SWIFTUI+%7C+WATCHOS...;%3E+AI+INTEGRATION+%3A%3A+SSE+STREAMING+%3A%3A+MVVM;%3E+2%2B+YRS+PRODUCTION+EXPERIENCE+%5BACTIVE%5D;%3E+SYSTEM+READY_" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1800&color=C04CFD&center=true&vCenter=true&width=600&lines=Senior+iOS+Engineer+%E2%80%94+Swift+%7C+SwiftUI+%7C+Swift+6+Concurrency;Building+AI-native+mobile+experiences+%E2%80%94+CoreML+%2F+RAG+%2F+SSE;Author+of+2+open-source+SPM+SDKs;2%2B+years+shipping+to+millions+of+users" alt="Typing SVG"/>
+
+<br/><br/>
+
+<a href="https://anupamthackar.in"><img src="https://img.shields.io/badge/Portfolio-anupamthackar.in-FA7343?style=for-the-badge&logo=safari&logoColor=white" /></a>
+<a href="https://linkedin.com/in/anupamthackar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:anupamthackar@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-C04CFD?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+<img src="https://komarev.com/ghpvc/?username=anupamthackar&style=for-the-badge&color=4D96FF&label=PROFILE+VIEWS" />
+
+</div>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anupamthackar.in-00F5FF?style=flat-square&labelColor=0D0D1A&color=00F5FF)](https://anupamthackar.in)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/◈_LINKEDIN-CONNECT-7B7BFF?style=flat-square&labelColor=0D0D1A&color=7B7BFF)](https://linkedin.com/in/anupamthackar)&nbsp;
-[![Gmail](https://img.shields.io/badge/◈_COMMS-anupamthackar@gmail.com-FF4C7B?style=flat-square&labelColor=0D0D1A&color=FF4C7B)](mailto:anupamthackar@gmail.com)
+## 👋 About Me
 
-![Views](https://komarev.com/ghpvc/?username=anupamthackar&style=flat-square&color=00F5FF&label=SIGNAL+COUNT)
+iOS Developer with **2+ years** of production experience building apps that serve **millions of users** across banking, insurance, travel, and automotive — with direct US client delivery.
 
-</div>
+I specialize in **SwiftUI**, **MVVM / Clean Architecture**, **Swift 6 Concurrency**, and **AI-native mobile features** — on-device chat with CoreML & Foundation Models, RAG pipelines, and real-time SSE streaming. I led a UIKit → SwiftUI and CocoaPods → SPM modernization that cut build times by **25%**.
 
----
+Outside client work, I author open-source Swift Package Manager libraries — designing developer-facing APIs the way I'd want to consume them.
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  UNIT       :: Anupam Thackar                                ║
-║  ROLE       :: iOS Developer @ NeoSoft Technologies          ║
-║  LOCATION   :: Mumbai, Maharashtra, India                      ║
-║  STATUS     :: Active — Open to new missions                 ║
-║  CLEARANCE  :: Mobility · Travel · Insurance · Banking       ║
-╚══════════════════════════════════════════════════════════════╝
+```text
+focus     →  AI-native iOS architecture · SPM SDK design
+currently →  iOS Developer @ NeoSoft Technologies, Mumbai
+based in  →  Mumbai, India
 ```
 
-iOS Developer with **1.8+ years** deploying production iOS and watchOS applications. Specialized in **SwiftUI**, **MVVM architecture**, and **AI-powered feature integration** — SSE streaming, speech-to-text, WatchConnectivity sync. Led UIKit → SwiftUI modernization and shipped across 4 industry verticals with US client exposure.
+<br/>
 
-```
-  CURRENT MISSION  ::  AI-assisted iOS features · watchOS development
-  OPEN TO          ::  iOS Developer roles — remote & on-site across India
-```
+## 🧩 Open Source SDKs
 
----
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-## `// TECH STACK`
+### ApplePlatformToolkit `v1.1.0`
+
+A **10-module Swift 6 SDK** for Apple platform development, built from the ground up for structured concurrency — full decoupling between modules.
+
+`Networking` `Auth` `CryptoKit` `Compression` `UI` `Plugins` `DI`
+
+<a href="https://github.com/anupamthackar/ApplePlatformToolkit"><img src="https://img.shields.io/badge/View_Repo-ApplePlatformToolkit-FA7343?style=flat-square&logo=github&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### GlassKit
+
+An **environment-driven SwiftUI framework** with a Liquid Glass design system, GPU-optimized rendering, and full WCAG 2.1 / AX5 accessibility — built component by component with DocC docs.
+
+`SwiftUI` `EnvironmentValues` `DocC` `Accessibility` `AI Agent Workflow`
+
+<a href="https://github.com/anupamthackar/GlassKit"><img src="https://img.shields.io/badge/View_Repo-GlassKit-C04CFD?style=flat-square&logo=github&logoColor=white" /></a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<!-- Shimmer glass skill banner — upload skills-banner.svg to your repo and update path below -->
-<!-- <img src="https://raw.githubusercontent.com/anupamthackar/anupamthackar/main/skills-banner.svg" width="100%" alt="Tech Stack"/>-->
-<img src="skills-banner.svg" width="100%" alt="Tech Stack"/>
+**iOS & Architecture**
+<br/>
+<img src="https://skillicons.dev/icons?i=swift,apple,xcode&theme=dark" />
+<br/><br/>
+
+**AI & Integration**
+<br/>
+<img src="https://skillicons.dev/icons?i=python,firebase,stripe&theme=dark" />
+<br/><br/>
+
+**Tools & DevOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode&theme=dark" />
 
 </div>
 
----
+<table width="100%">
+<tr><td>
 
-## `// CERTIFICATIONS & ACHIEVEMENTS`
+**iOS Development**
+Swift · SwiftUI · UIKit · watchOS · MVVM · Clean Architecture · Swift 6 Concurrency · Combine · XCTest · VoiceOver · WCAG 2.1
 
-```
-╔══════════════════════════════════════════════════╗
-║  CERTIFICATION LOG :: Scaler Academy             ║
-╠══════════════════════════════════════════════════╣
-║  [✓]  Data Structures & Algorithms               ║
-║  [✓]  Low-Level Design  (LLD)                    ║
-║  [✓]  High-Level Design (HLD)                    ║
-║  [✓]  Python Programming                         ║
-║  [✓]  SQL Database Management                    ║
-╚══════════════════════════════════════════════════╝
-```
+**AI & GenAI**
+CoreML · Foundation Models · RAG (Retrieval-Augmented Generation) · SSE Streaming · AI Chat (iOS + watchOS) · OpenAI GPTs · Claude Projects · Prompt Engineering
 
-```
-╔══════════════════════════════════════════════════╗
-║  ACHIEVEMENT LOG                                 ║
-╠══════════════════════════════════════════════════╣
-║  [★]  Top 10% — Scaler Academy challenges        ║
-║  [★]  500+ DSA problems solved                   ║
-║  [★]  US client delivery — Cinko (Travel/US)     ║
-║  [★]  B.Tech CSE — MIT ADT University · 7.16     ║
-╚══════════════════════════════════════════════════╝
-```
+**Integration & Backend**
+REST APIs · Alamofire · Stripe · Apple Pay · Google Maps SDK · Firebase · CoreData
 
----
+**DevOps & Process**
+Xcode Cloud · Fastlane · GitHub Actions · SPM · CocoaPods · TestFlight · App Store Connect · JIRA · Agile/Scrum
+
+</td></tr>
+</table>
+
+<br/>
+
+## 🤖 AI-Native Development
+
+| Capability | Implementation |
+|---|---|
+| On-device ML | CoreML — AI features without network dependency |
+| Apple Intelligence | Foundation Models framework (iOS + watchOS) |
+| Conversational AI | RAG-based chat assistants with multi-provider auth |
+| Real-time streaming | SSE (Server-Sent Events) for live AI responses |
+
+**Certifications:** IBM Generative AI Professional Certificate · Google Generative AI Certificate (Google Cloud / Coursera)
+
+<br/>
+
+## 🚀 Featured Projects
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🏨 Cinko — AI Hotel Booking Platform
+End-to-end SwiftUI booking flow with Stripe + Apple Pay (**99.5% transaction success rate**), radius-based discovery via CoreLocation + Google Places, and a RAG-based AI chat assistant with real-time SSE streaming and multi-provider auth.
+
+`SwiftUI` `Stripe` `RAG` `SSE` `MVVM`
+
+</td>
+<td width="50%" valign="top">
+
+### ⌚ Tata Fleet Edge — watchOS AI Companion
+Apple Watch companion app with bi-directional WatchConnectivity sync, on-device AI chat via Foundation Models with SSE streaming, and speech-to-text fleet driving analytics.
+
+`SwiftUI` `WatchConnectivity` `Foundation Models` `SSE`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🏆 Achievements & Certifications
+
+- 🧩 **2 open-source SPM libraries** published (ApplePlatformToolkit v1.1.0, GlassKit)
+- 🎓 **Top 10%** — Scaler Academy programming challenges
+- 🧠 **500+ DSA problems** solved (Arrays, Trees, DP, Graphs, LLD, HLD)
+- 📱 Production apps serving **millions of users** — Union Bank of India, Tata AIG, Tata Motors
+- ⚡ Led UIKit → SwiftUI migration, **reducing build times by 25%**
+- 🎓 B.Tech, Computer Science & Engineering — MIT ADT University (CGPA 7.16)
+
+<br/>
+
+## 📊 GitHub Activity
 
 <div align="center">
 
-`// END OF TRANSMISSION`
+<img src="https://github-readme-stats.vercel.app/api?username=anupamthackar&show_icons=true&hide_border=true&theme=radical&bg_color=0D1117&title_color=FA7343&icon_color=C04CFD&text_color=c9d1d9" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=anupamthackar&hide_border=true&theme=radical&background=0D1117&ring=C04CFD&fire=FA7343&currStreakLabel=4D96FF" width="48%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00F5FF,50:7B7BFF,100:000000&height=100&section=footer&animation=twinkling" width="100%"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4D96FF,50:C04CFD,100:FA7343&height=120&section=footer" width="100%"/>
 
 </div>
